@@ -201,6 +201,21 @@ html, body {
 /* MEDIAS QUERIES */
 
 @media (max-width: 900px) {
+  #header ul li {
+    width: 100%;
+    background-color: #000;
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
+    transition: .3s;
+  }
+  
+  #header ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3em;
+  }
+
   #header .box-description {
     max-width: 600px;
   }
