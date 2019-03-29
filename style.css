@@ -212,6 +212,10 @@ html, body {
 }
 
 @media (max-width: 900px) {
+  #header nav .logo {
+    margin: 0;
+  }
+
   #header .box-description {
     max-width: 500px;
   }
@@ -228,6 +232,15 @@ html, body {
 }
 
 @media (max-width: 500px) {
+  #header ul {
+    width: 100%;
+    transform: translateX(500px);
+  }
+  
+  #header nav .logo {
+    margin: 0;
+  }
+
   #header .box-description {
     max-width: 400px;
   }
@@ -244,6 +257,11 @@ html, body {
 }
 
 @media (max-width: 400px) {
+  #header ul {
+    width: 100%;
+    transform: translateX(400px);
+  }
+
   #header nav .logo {
     margin: 0;
   }
